@@ -1,0 +1,228 @@
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+}
+
+@keyframes fade {
+    from { opacity: 0%; }
+    to { opacity: 100%; }
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Elements Selector */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    display: flex;
+    background-color: #02b151cb;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+aside {
+    padding-left: 20px;
+    float: right;
+    width: 25%;
+}
+
+footer {
+    padding: 1px 10px 1px 10px;
+    color: black;
+    background-color: #fff;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.4);
+    text-align: left;
+    font-weight: normal;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.headers {
+    font-size: 28px;
+    width: 100%;
+    height: 400px;
+    padding: 10px 20px 10px 20px;
+    background-image: url(../Images/Bekam-Background.jpeg);
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    text-align: left;
+}
+
+.headers i {
+    opacity: 0%;
+}
+
+.headers p,
+.headers i {
+    font-size: 20px !important;
+}
+
+.headers a {
+    text-decoration: none !important;
+    color: whitesmoke !important;
+}
+
+.headers a:hover {
+    font-weight: bold;
+}
+
+.headers ul {
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+.card {
+    box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.form-input .form-group:before,
+.form-input .form-group:after {
+    display: table;
+    content: " ";
+}
+
+.form-input .form-group:after {
+    clear: both;
+}
+
+.form-input .radio,
+.form-input .checkbox,
+.form-input .radio-inline,
+.form-input .checkbox-inline {
+    padding-top: 7px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.form-input .radio,
+.form-input .checkbox {
+    min-height: 27px;
+}
+
+.form-input .btn {
+    margin: 15px !important;
+    padding: 8px;
+}
+
+.form-input .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form-bio .has-feedback .form-control-feedback {
+    right: 15px;
+}
+
+.form-control {
+    display: block !important;
+    width: fit-content;
+    margin-left: 20px;
+    height: 34px;
+    padding: 6px 12px !important;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.control-label {
+    display: block;
+    width: fit-content;
+    margin-left: 15px;
+    height: 34px;
+    padding: 6px 12px 6px 2px;
+    font-size: 16px;
+}
+
+.btn {
+    width: fit-content;
+    padding: 4px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00ac6a;
+    border: transparent;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.radio,
+.checkbox {
+    display: block;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.profile table {
+    border: none !important;
+    margin: 10px !important;
+}
+
+.profile th,
+.profile td {
+    text-align: left !important;
+    border: none !important;
+    padding: 4px !important;
+    background-color: transparent !important;
+    color: black !important;
+}
