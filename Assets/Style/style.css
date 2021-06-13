@@ -6,6 +6,12 @@
     }
 }
 
+@media screen and (max-width: 780px) {
+    .headers {
+        height: 600px !important;
+    }
+}
+
 @keyframes fade {
     from { opacity: 0%; }
     to { opacity: 100%; }
